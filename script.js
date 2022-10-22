@@ -16,3 +16,8 @@ closeModalBtn.addEventListener('click', function () {
     modal.classList.add('hidden');
     overlay.classList.add('hidden');
 });
+// close modal when clicked outside of it
+overlay.addEventListener('click', function () {
+    modal.classList.add('hidden');
+    overlay.classList.add('hidden');
+});
